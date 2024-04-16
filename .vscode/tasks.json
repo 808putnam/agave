@@ -5,7 +5,7 @@
         {
             "label": "node-setup",
             "type": "shell",
-            "command": "./multinode-demo/setup.sh && ./multinode-demo/faucet.sh &",
+            "command": "./.vscode/node_setup.sh",
             "options": {
                 "cwd": "${workspaceFolder}",
             },
