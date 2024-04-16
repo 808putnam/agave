@@ -9,6 +9,7 @@
             "name": "agave-validator",
             "type": "lldb",
             "request": "launch",
+            "preLaunchTask": "node-setup",
             "program": "${workspaceFolder}/target/debug/agave-validator",
             "args": [
                 "--ledger", "${workspaceFolder}/config/bootstrap-validator",
@@ -38,6 +39,7 @@
             "name": "agave-rpc-node",
             "type": "lldb",
             "request": "launch",
+            "preLaunchTask": "node-setup",
             "program": "${workspaceFolder}/target/debug/agave-validator",
             "args": [
                 "--ledger", "${workspaceFolder}/config/bootstrap-validator",
